@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-surface: #faf8ff;
+    --bg-surface-muted: #F0F3FA;
+    --bg-surface-container: #ededfa;
+    --bg-surface-container-low: #f3f2ff;
+    --color-primary: #0049db;
+    --color-market-gain: #089981;
+    --color-market-loss: #F23645;
+    --color-border-subtle: #E0E3EB;
+    --color-text-secondary: #6A6D78;
+    --color-on-surface: #191b24;
+    --color-on-surface-variant: #434656;
+  }
+
+  body {
+    font-family: 'IBM Plex Sans', sans-serif;
+    background-color: var(--bg-surface);
+    color: var(--color-on-surface);
+  }
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Material symbols font settings */
+.material-symbols-outlined {
+  font-family: 'Material Symbols Outlined';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+}

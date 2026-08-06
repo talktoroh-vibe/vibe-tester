@@ -1,0 +1,6 @@
+{
+  "name": "MarketWise",
+  "description": "High-performance financial market intelligence platform for real-time indices, stocks, crypto, forex, earnings, and IPO tracking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
